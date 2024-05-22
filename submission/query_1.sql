@@ -7,7 +7,7 @@ CREATE OR REPLACE TABLE actors (
     films ARRAY(
         ROW(
 	     -- 'film_id': Unique identifier for each film.
-            film_id NOT NULL VARCHAR,
+            film_id VARCHAR NOT NULL,
             -- 'film': Name of the film.
             film VARCHAR,
             -- 'votes': Number of votes the film received.
