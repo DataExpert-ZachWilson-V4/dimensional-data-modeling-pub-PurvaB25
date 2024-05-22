@@ -23,7 +23,7 @@ WITH
       ) AS last_year_quality_class,
       current_year
     FROM
-      actors
+      actors_history_scd
     WHERE
 -- Filter the records to include seasons up to and including 2021
       current_season <= 2021
