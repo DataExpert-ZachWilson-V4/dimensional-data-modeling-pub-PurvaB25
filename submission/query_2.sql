@@ -1,11 +1,11 @@
-INSERT INTO actors
+INSERT INTO purvabadve55523.actors
  -- last_year CTE captures all rows from the actors table where current_year is 1914
 WITH
   last_year AS (
     SELECT
       *
     FROM
-      actors
+      purvabadve55523.actors
     WHERE
       current_year = 1914
   ),
